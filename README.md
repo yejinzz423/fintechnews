@@ -1,21 +1,34 @@
-# Fintech News Data Pipeline
-핀테크 산업 동향 모니터링을 위한 뉴스 데이터 수집 및 구조화 프로젝트
+# Fintech News Insight
+핀테크 산업 뉴스 데이터를 수집하고,
+텍스트 분석을 통해 서비스 인사이트를 도출하는 실험 레포지토리입니다.
 
-본 프로젝트는 금융·핀테크 관련 뉴스 데이터를 수집하고,
-분석 가능한 형태로 정제·구조화하는 과정을 기록합니다.
+본 프로젝트는 뉴스 데이터의 수집 → 전처리 → 토픽 분석 → 서비스 아이디어 연결
+과정을 단계적으로 기록합니다.
 
-## 📌 Project Goal
-- 뉴스 데이터 수집 자동화
-- 텍스트 기반 금융 이슈 모니터링
-- 데이터 QA 및 정합성 검증 구조 설계
+---
 
-## 🧩 Data Process
-1. News Source Crawling
-2. Text Cleaning & Structuring
-3. Keyword / Topic Extraction
-4. Data Validation
+## 📊 Analysis Flow
 
-## 📂 Repository Structure
-- data/ : 원천 데이터 및 전처리 결과
-- notebook/ : 분석 및 실험 코드
-- report/ : 분석 정리
+01️⃣ 핀테크 뉴스 데이터 수집  
+- 뉴스 크롤링 및 데이터셋 구축
+
+02️⃣ 텍스트 전처리 및 토픽 분석  
+- 형태소 처리
+- Wordcloud 시각화
+- LDA 토픽 모델링
+
+03️⃣ 서비스 기획 아이디어 도출  
+- 분석 결과 기반 기능 아이디어 정리
+
+---
+
+## 📂 Files
+
+- `01_핀테크 뉴스 데이터 수집.ipynb`
+- `02_텍스트 전처리, Wordcloud, LDA 토픽 모델링.ipynb`
+- `03_서비스 기획 아이디어.ipynb`
+- `fintech_news.csv`
+
+본 레포는 분석 결과보다
+데이터 흐름과 구조화 과정을 기록하는 데 목적이 있습니다.
+
